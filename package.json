@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha day-01/test.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TylCupp/aoc-2021/issues"
   },
-  "homepage": "https://github.com/TylCupp/aoc-2021#readme"
+  "homepage": "https://github.com/TylCupp/aoc-2021#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
 }
